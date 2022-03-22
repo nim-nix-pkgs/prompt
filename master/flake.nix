@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-prompt-master.flake = false;
+  inputs.src-prompt-master.ref   = "refs/heads/master";
   inputs.src-prompt-master.owner = "surf1nb1rd";
-  inputs.src-prompt-master.ref   = "master";
   inputs.src-prompt-master.repo  = "nim-prompt";
   inputs.src-prompt-master.type  = "github";
   
