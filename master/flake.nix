@@ -11,6 +11,7 @@
   inputs.src-prompt-master.ref   = "refs/heads/master";
   inputs.src-prompt-master.owner = "surf1nb1rd";
   inputs.src-prompt-master.repo  = "nim-prompt";
+  inputs.src-prompt-master.dir   = "";
   inputs.src-prompt-master.type  = "github";
   
   inputs."unicodedb".owner = "nim-nix-pkgs";
